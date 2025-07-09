@@ -30,4 +30,18 @@ print("New city:", city)
 year_born = 2025 - age
 print("\nYear born:", year_born)
 
+##4. Data Types Check
+print("\nType of name:", type(name))
+print("Type of age:", type(age))
+print("Type of height:", type(height))
+print("Type of is_student:", type(is_student))
 
+# ▶️ 5. String Concatenation Using Variables
+greeting = 'hello, my name is' + name + " and I live in " + city + "."
+print("\n" + greeting)
+
+# ✅ Task 5: Create a sentence introducing yourself using your variables and print it
+
+
+my_intro = f"My name is {name}, I am {age} years old, and I live in {city}."
+print(my_intro)
